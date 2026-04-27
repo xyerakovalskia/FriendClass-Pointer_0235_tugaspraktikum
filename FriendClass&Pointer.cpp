@@ -17,3 +17,11 @@ public:
         cout << "Masukkan Sisi Miring A: "; cin >> s1;
         cout << "Masukkan Sisi Miring B: "; cin >> s2;
     }
+
+    void tampilkanLuas() {
+        double luas = 0.5 * d1 * d2;
+        cout << "Luas Layang-Layang: " << luas << endl;
+    }
+
+    friend void hitungKelilingGabungan(LayangLayang objL, BelahKetupat objB);
+};
