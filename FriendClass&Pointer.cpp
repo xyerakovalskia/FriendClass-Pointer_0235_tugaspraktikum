@@ -25,3 +25,7 @@ public:
 
     friend void hitungKelilingGabungan(LayangLayang objL, BelahKetupat objB);
 };
+
+class BelahKetupat {
+private:
+    double d1, d2, sisi;
