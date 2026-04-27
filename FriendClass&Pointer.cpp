@@ -59,3 +59,6 @@ int main() {
    
     LayangLayang layang;
     BelahKetupat ketupat;
+
+    layang.inputData();
+    ketupat.inputData();
