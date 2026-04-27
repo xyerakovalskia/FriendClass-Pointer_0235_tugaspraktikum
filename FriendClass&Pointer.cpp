@@ -53,3 +53,9 @@ void hitungKelilingGabungan(LayangLayang objL, BelahKetupat objB) {
     cout << "\n--- Output Keliling (Via Friend Function) ---" << endl;
     cout << "Keliling Layang-Layang: " << kelilingL << endl;
     cout << "Keliling Belah Ketupat: " << kelilingB << endl;
+}
+
+int main() {
+   
+    LayangLayang layang;
+    BelahKetupat ketupat;
