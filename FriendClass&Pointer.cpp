@@ -45,3 +45,11 @@ public:
 
     friend void hitungKelilingGabungan(LayangLayang objL, BelahKetupat objB);
 };
+
+void hitungKelilingGabungan(LayangLayang objL, BelahKetupat objB) {
+    double kelilingL = 2 * (objL.s1 + objL.s2);
+    double kelilingB = 4 * objB.sisi;
+    
+    cout << "\n--- Output Keliling (Via Friend Function) ---" << endl;
+    cout << "Keliling Layang-Layang: " << kelilingL << endl;
+    cout << "Keliling Belah Ketupat: " << kelilingB << endl;
