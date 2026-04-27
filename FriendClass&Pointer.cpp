@@ -37,3 +37,11 @@ public:
         cout << "Masukkan Diagonal 2: "; cin >> d2;
         cout << "Masukkan Sisi: "; cin >> sisi;
     }
+
+    void tampilkanLuas() {
+        double luas = 0.5 * d1 * d2;
+        cout << "Luas Belah Ketupat: " << luas << endl;
+    }
+
+    friend void hitungKelilingGabungan(LayangLayang objL, BelahKetupat objB);
+};
