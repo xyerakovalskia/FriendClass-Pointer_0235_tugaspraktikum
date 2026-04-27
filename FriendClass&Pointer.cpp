@@ -62,3 +62,12 @@ int main() {
 
     layang.inputData();
     ketupat.inputData();
+
+    cout << "\n--- Output Luas ---" << endl;
+    layang.tampilkanLuas();
+    ketupat.tampilkanLuas();
+
+    hitungKelilingGabungan(layang, ketupat);
+
+    return 0;
+}
